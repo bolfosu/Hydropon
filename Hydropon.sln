@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hydropon", "Hydropon\Hydropon.csproj", "{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77FD4D6A-6B45-4F0D-A15A-5A9F27D60211}
+	EndGlobalSection
+EndGlobal
