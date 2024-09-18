@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Hydropon.Data.Models
 {
-    internal class UserSettings
+    public class UserSettings
     {
+        public int Id { get; set; }
+        public string Username { get; set; }
+       
+
     }
 }
