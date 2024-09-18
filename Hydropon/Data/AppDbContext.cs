@@ -16,15 +16,15 @@ public class AppDbContext : DbContext
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Specify the SQLite database file path
+            // Specify the  database file path
             optionsBuilder.UseSqlite("Data Source=hydroponicsystem.db");
         }
 
-        // Optional: Configure database schema using Fluent API
+        
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Add configurations for your models if needed
-            // e.g., modelBuilder.Entity<SensorReading>().HasKey(sr => sr.Id);
+            
         }
     }
 
