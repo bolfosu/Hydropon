@@ -1,39 +1,22 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Hydropon.Data.Models;
 
 namespace Hydropon.Data
 {
-   
-
-public class AppDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public DbSet<SensorReading> SensorReadings { get; set; }
+        public DbSet<SensorReadings> SensorReadings { get; set; }
         public DbSet<UserSettings> UserSettings { get; set; }
 
-        private readonly IConfiguration _configuration;
-
-        public AppDbContext(IConfiguration configuration)
+        // Use only this constructor
+        public AppDbContext(DbContextOptions<AppDbContext> options)
+            : base(options)
         {
-            _configuration = configuration;
         }
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            string connectionString = _configuration.GetConnectionString("DefaultConnection");
-            optionsBuilder.UseSqlite(connectionString);
-        }
-
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             // Add configurations for your models if needed
-            
         }
     }
-
 }
-
