@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hydropon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e0716515c92574e66b8307ef3aa0fb5fb564efc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04efd199988a8217ad9e4d721c231296a0e4a3a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hydropon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hydropon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
