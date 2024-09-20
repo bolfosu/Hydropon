@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mobo\\source\\repos\\Hydropon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Migrations\\20240919193314_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Hydropon\\Migrations\\20240919193314_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\data\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\data\\models\\sensorreadings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\data\\models\\sensorreadings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\data\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\data\\models\\usersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|c:\\users\\mobo\\source\\repos\\hydropon\\hydropon\\data\\models\\plantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEEB8561-C29D-44FA-8F9F-8023E08AD5AA}|Hydropon\\Hydropon.csproj|solutionrelative:hydropon\\data\\models\\plantprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,48 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Program.cs",
-              "RelativeDocumentMoniker": "Hydropon\\Program.cs",
-              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Program.cs",
-              "RelativeToolTip": "Hydropon\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:17:26.582Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240919193314_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Migrations\\20240919193314_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Hydropon\\Migrations\\20240919193314_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Migrations\\20240919193314_InitialCreate.cs",
-              "RelativeToolTip": "Hydropon\\Migrations\\20240919193314_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:33:14.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Hydropon\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Hydropon\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-19T19:32:04.139Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
@@ -75,14 +39,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\appsettings.json",
-              "RelativeDocumentMoniker": "Hydropon\\appsettings.json",
-              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\appsettings.json",
-              "RelativeToolTip": "Hydropon\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-19T19:26:00.338Z",
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Hydropon\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Hydropon\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T14:00:45.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Hydropon\\Data\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\User.cs",
+              "RelativeToolTip": "Hydropon\\Data\\Models\\User.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:56:33.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserSettings.cs",
+              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\UserSettings.cs",
+              "RelativeDocumentMoniker": "Hydropon\\Data\\Models\\UserSettings.cs",
+              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\UserSettings.cs",
+              "RelativeToolTip": "Hydropon\\Data\\Models\\UserSettings.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBoAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:52:25.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SensorReadings.cs",
+              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\SensorReadings.cs",
+              "RelativeDocumentMoniker": "Hydropon\\Data\\Models\\SensorReadings.cs",
+              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\SensorReadings.cs",
+              "RelativeToolTip": "Hydropon\\Data\\Models\\SensorReadings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:43:14.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlantProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\PlantProfile.cs",
+              "RelativeDocumentMoniker": "Hydropon\\Data\\Models\\PlantProfile.cs",
+              "ToolTip": "C:\\Users\\mobo\\source\\repos\\Hydropon\\Hydropon\\Data\\Models\\PlantProfile.cs",
+              "RelativeToolTip": "Hydropon\\Data\\Models\\PlantProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T13:42:10.654Z",
               "EditorCaption": ""
             },
             {
