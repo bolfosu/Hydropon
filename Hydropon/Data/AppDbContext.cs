@@ -7,6 +7,9 @@ namespace Hydropon.Data
     {
         public DbSet<SensorReadings> SensorReadings { get; set; }
         public DbSet<UserSettings> UserSettings { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<PlantProfile> PlantProfiles { get; set; }
+
 
         // Use only this constructor
         public AppDbContext(DbContextOptions<AppDbContext> options)
