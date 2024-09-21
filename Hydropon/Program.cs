@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Hydropon.Data; // Ensure you have the correct namespace for your AppDbContext
+using Hydropon.Data; 
 
 namespace Hydropon
 {
@@ -24,19 +24,18 @@ namespace Hydropon
                     services.AddDbContext<AppDbContext>(options =>
                         options.UseSqlite(context.Configuration.GetConnectionString("DefaultConnection")));
 
-                    // Add other services here, if necessary
                 });
 
             var app = builder.Build();
 
-            // Ensure database is created and migrations are applied
+            
             using (var scope = app.Services.CreateScope())
             {
                 var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
                 try
                 {
-                    dbContext.Database.EnsureCreated(); // This ensures the database is created if it doesn't exist
-                    dbContext.Database.Migrate(); // This applies any pending migrations
+                    dbContext.Database.EnsureCreated(); 
+                    dbContext.Database.Migrate(); 
                 }
                 catch (Exception ex)
                 {

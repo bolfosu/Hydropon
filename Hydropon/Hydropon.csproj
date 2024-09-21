@@ -11,11 +11,9 @@
     <Folder Include="API\Controllers\" />
     <Folder Include="config\" />
     <Folder Include="Core\" />
-    <Folder Include="Data\Migrations\" />
     <Folder Include="GUI\ViewModels\" />
     <Folder Include="GUI\Views\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Services\" />
     <Folder Include="Tests\CoreTests\" />
     <Folder Include="Tests\APITests\" />
   </ItemGroup>
