@@ -36,7 +36,7 @@ namespace Hydropon.Services
                 Timestamp = DateTime.Now,
                 PH = sensorData.PH,
                 EC = sensorData.EC,
-                Temperature = sensorData.Temperature
+                WaterTemperature = sensorData.WaterTemperature
             };
 
             await _context.SensorReadings.AddAsync(reading);
