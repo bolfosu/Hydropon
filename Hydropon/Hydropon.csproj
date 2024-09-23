@@ -8,14 +8,27 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="config\**" />
+    <Compile Remove="Helpers\**" />
+    <EmbeddedResource Remove="config\**" />
+    <EmbeddedResource Remove="Helpers\**" />
+    <None Remove="config\**" />
+    <None Remove="Helpers\**" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="API\Controllers\" />
-    <Folder Include="config\" />
-    <Folder Include="Core\" />
+    <Folder Include="API\NewFolder\" />
     <Folder Include="GUI\ViewModels\" />
     <Folder Include="GUI\Views\" />
-    <Folder Include="Helpers\" />
-    <Folder Include="Tests\CoreTests\" />
     <Folder Include="Tests\APITests\" />
+    <Folder Include="Tests\CoreTests\" />
   </ItemGroup>
 
   <ItemGroup>

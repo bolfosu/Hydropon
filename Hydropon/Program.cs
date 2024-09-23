@@ -4,7 +4,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Hydropon.Data; 
+using Hydropon.Data;
+using Hydropon.Core;
 
 namespace Hydropon
 {
@@ -12,6 +13,8 @@ namespace Hydropon
     {
         public static void Main(string[] args)
         {
+            DockerTest dockerTest = new DockerTest();
+
             var builder = Host.CreateDefaultBuilder(args)
                 .ConfigureAppConfiguration((context, config) =>
                 {
