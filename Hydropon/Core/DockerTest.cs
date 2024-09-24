@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Hydropon.Core
 {
-    internal class DockerTest
+    public class DockerTest
     {
         public void Test()
         {

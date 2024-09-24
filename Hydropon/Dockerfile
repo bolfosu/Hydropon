@@ -17,8 +17,11 @@ WORKDIR /app
 COPY --from=build /app/out ./
 
 # Copy the appsettings.json file from the root directory
-COPY appsettings.json ./  # This line assumes appsettings.json is in the same directory as the Dockerfile
+COPY bin/Debug/net8.0/appsettings.json ./
+  # This line assumes appsettings.json is in the same directory as the Dockerfile
 
+  # Expose port 8080
+EXPOSE 8080
 
 # Specify the command to run the application
 ENTRYPOINT ["dotnet", "Hydropon.dll"]
