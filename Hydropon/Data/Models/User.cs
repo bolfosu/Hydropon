@@ -12,10 +12,11 @@ namespace Hydropon.Data.Models
 
         public string Username { get; set; } // Username
         public string PasswordHash { get; set; } // Hashed password
-
-
+        //email
+        //security question
+        //phone number
         public ICollection<PlantProfile> PlantProfiles { get; set; } // Profiles created by the user
-        public UserSettings UserSettings { get; set; } // User's settings
+        
         
     }
 

@@ -9,7 +9,7 @@ namespace Hydropon.Data.Models
     public class PlantProfile
     {
         public int Id { get; set; } // Primary key
-
+        //list sensors
         public string Name { get; set; } // Profile name, e.g., "Tomato", "Lettuce"
 
         public decimal MinPH { get; set; } // Minimum acceptable pH level
@@ -21,8 +21,9 @@ namespace Hydropon.Data.Models
         public TimeSpan LightOnTime { get; set; } // Time to turn lights on
         public TimeSpan LightOffTime { get; set; } // Time to turn lights off
 
-        public bool IsDefault { get; set; } // True for predefined profiles, false for user-created profiles
+        //public bool IsDefault { get; set; } // True for predefined profiles, false for user-created profiles
 
+        /
      
       
     }

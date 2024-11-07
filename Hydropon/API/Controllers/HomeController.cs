@@ -16,7 +16,7 @@ namespace Hydropon.API.Controllers
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "Hello, World!";
+            return "Hello Hydropon!";
         }
     }
 }

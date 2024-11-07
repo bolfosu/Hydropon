@@ -58,7 +58,7 @@ namespace Hydropon
                     Console.WriteLine($"An error occurred while migrating or seeding the database: {ex.Message}");
                 }
             }
-            app.Urls.Add("http://localhost:8080");
+            app.Urls.Add("http://localhost:5001");
             app.Run(); // Run the application
         }
     }
